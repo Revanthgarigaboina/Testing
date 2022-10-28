@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<meta charset="UTF-8">
+ 	<meta name="description" content="Your description shoul be brief below 170words">
+ 	<meta name="author" content="Revanth">
+ 	<meta name="keywords" content="html tutorisl">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<meta name="descrition" content="This is an awesome website">
+ 	<title>
+ 		Revanth's website
+ 	</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous">
+  </script>
+ </head>
+ <body > <!--1) style="background-color:yellow"; we can use this text in body to change the colour of body to yellow
+ 	2) CSS has a special feature that if we apply any color/back-ground color/font family in body it applies to the whole body element-->
+ 	<header>
+ 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=lobster"><!-- This line is not working -->
+ 	<style> 
+ 		body{background-color: cyan;}  
+ 		#heading { color: green;}
+ 		h1{color:blue;}
+ 		h1{font-family: sans-serif,monospace;}
+ 		p{color:violet;}
+        hr{
+            size: 20;
+
+        }
+ 		p{font-size: 16px;
+ 			font-family: monospace;}
+ 		.silver-background{background-color:silver }
+ 		.red-text{color:red;}
+ 		.smaller-image{width: 250px}
+ 		.thick-blue-border{border-color: blue;border-width: 5px;border-style: solid; border-radius: 10px}
+        .blue-text{color: blue;}
+ 		.pink-text{color: pink !important;}
+ 		#orange-text{color: orange;}
+ 		[type='checkbox']{margin: 10px 0px 15px 0px;}
+    </style>
+
+    <h1 class="red-text thick-blue-border">HTML-HYPER TEXT MARK UP LANGUAGE</h1>
+ 	<h1>Revanth's Website</h1>
+    </header>
+ 	<br/>
+ 	<main>
+ 	<p> This is my <b>paragraph</b> </p>
+ 	<hr/> <hr/>
+ 	<nav>
+ 		
+       This is a navigation line which navigates to like introduction,section,section2 ,end
+ 	</nav>
+ 	<p> <i>This is another </i>paragraph </p>
+    <p> <b><i>This is 3rd paragraph</i></b></p>
+    <P><big>This </big> is 4th paragraph</P>
+    <p><small>This </small> is 5th paragraph</p>
+ 	<h2>sub script and super script</h2>
+ 	<p>
+ 		H<sub>2</sub>O
+ 		10<sup>2</sup>
+ 	</p>
+ 	<br/>
+ 	<article>
+ 		This is an article 
+
+ 		<section>
+ 		<h1>
+ 			this is a section with h1
+ 		</h1>
+
+ 		</section>
+ 		<section>
+ 			<aside>
+ 				This a aside tag which is not important in our website but will be present at the side
+ 			</aside>
+
+ 		</section>
+
+ 	</article>
+ 	<h3>Comments are <i>~~Invinsible~~</i></h3>
+ 	<!-- This is a comment it will not be displayed -->
+
+ 	<h2 style="color:green;background-color:violet";>Style and Colours </h2>
+ 	<p style="color:red;background-color:blue;"> Your paragraph has turned into blue </p>
+
+ 	<h2 id="heading">Links</h2>
+ 	<a  href="https://www.google.com"><h1> This navigates to Googles <b>Homepage</b> in same tab</h1> </a>
+ 	<a href="https://www.google.com" target="_blank"><h1>this navigates to Googles Homepage in different tab</h1> </a>
+ 	<a href="index2.html" > this navigates to another html file in same folder index2 </a>
+    <br/>
+ 	<a href="C:\Users\Revanth\Desktop\POM\index.html" >  this navigates to another html file in different folder index</a>
+ 	<a href="Lion.png" > <h3>Lion</h3></a>
+ 	<h1> IMAGES </h1>
+ 	<img width="100" height="100" src="https://www.krugerpark.co.za/images/black-maned-lion-shem-compion-590x390.jpg" alt="The image is not found" />
+    <hr/>
+    <p>
+    	Here observe we had used the class smaller-image which onsists of width 100px to make the image smaller than usual
+    </p>
+ 	<img class="smaller-image thick-blue-border" src="Lion.png" alt="the image is not found" />
+ 	<hr/>
+ 	<a href="https://www.krugerpark.co.za/images/black-maned-lion-shem-compion-590x390.jpg"> <img src="Lion.png" alt="the image is not found" /> </a>
+ 	this 100 is measurement in pixels not in cm/m differs from screen to screen and resolution to resolution
+ 	<h1> VIDEOS </h1>
+ 	<video src=" Jersey.mp4" controls width="300" ></video>
+ 	<br/>
+ 	<video src=" Jersey.mp4" poster="Jersey.png" loop controls width="300" ></video>
+ 	<br/>
+ 	<video src=" Jersey.mp4" poster="Jersey.png" autoplay controls width="300" ></video>
+ 	<br/>
+ 	<iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 	<h1>LISTS</h1>
+ 	<h2>Ordered and unordered lists</h2>
+ 	<ul>
+ 		<li>Apples</li>
+ 		<li>Mangoes</li>
+ 		<li>Bananas</li>
+ 	</ul>
+ 	<ol>
+ 		<li>Apples</li>
+ 		<li>Mangoes</li>
+ 		<li>Bananas</li>
+ 	</ol>
+ 	<ol type="I">
+ 		<li>Apples</li>
+ 		<li>Mangoes</li>
+ 		<li>Bananas</li>
+ 	</ol>
+ 	<ol type="i">
+ 		<li>Apples</li>
+ 		<li>Mangoes</li>
+ 		<li>Bananas</li>
+ 	</ol>
+ 	<ol type="a">
+ 		<li>Apples</li>
+ 		<li>Mangoes</li>
+ 		<li>Bananas</li>
+ 	</ol>
+ 	<ol type="a">
+ 		<li>Apples
+ 		<ul>
+ 			<li>Item 1 </li>
+ 		</ul>
+ 		<ul>
+ 			<li>Item 2</li>
+ 		</ul>
+ 		<ul> 
+ 			<li>Item 3</li>
+ 		</ul>
+ 	    </li>
+ 		
+ 		<li>Mangoes</li>
+ 		<li>Bananas</li>
+ 	</ol>
+ 	<h2>Description Lists</h2>
+ 	<dl>
+ 		<dt>Apples(dt is description term)</dt>
+ 		<dd>- They are red(describes the descripton)</dd>
+ 		<dt>Oranges</dt>
+ 		<dd>They are orange in colour</dd>
+ 	</dl>
+ 	<h1> TABLES </h1>
+ 	<p>
+ 		Tr-Table row one horizontal row one entry into our table
+ 		<br/>
+ 		td-table data individual data for each colum in the table
+ 		<br/>
+ 		th-table header
+ 		<br/>
+ 		colspan-1 entry will take 2 columns another entries woukd be printed in the same row
+ 	</p>
+ 	<table border="5">
+ 		<thead>
+ 		  <caption> <h2> List of Numbers </h2> </caption>
+ 		  <tr>
+ 			 <th>num1</th>
+ 			 <th>num2</th>
+ 			 <th>num3</th>
+ 		 </tr>
+ 		</thead>
+ 		<tbody>
+ 		 <tr>
+ 			 <td>one</td>
+ 			 <td>two</td>
+ 			 <td>three</td>
+ 			 <td>three and half</td>
+ 		 </tr>
+ 		 <tr>
+ 			 <td>four</td>
+ 			 <td>five</td>
+ 			 <td>six</td>
+ 		 </tr>
+ 		</tbody>
+ 	</table>
+ 	 	<table>
+ 		<thead>
+ 		  <caption> <h2> List of Numbers </h2> </caption>
+ 		  <tr>
+ 			 <th>num1</th>
+ 			 <th>num2</th>
+ 			 <th>num3</th>
+ 		 </tr>
+ 		</thead>
+ 		<tbody>
+ 		 <tr>
+ 			 <td colspan="2">one</td>
+ 			 <td>two</td>
+ 			 <td>three</td>
+ 		 </tr>
+ 		 <tr>
+ 			 <td>four</td>
+ 			 <td>five</td>
+ 			 <td>six</td>
+ 		 </tr>
+ 		</tbody>
+ 	</table>
+ 	<p> css can display block and inline elementss block elements are html elements that take up the entire width of the page like block on the page.inline elements are elements that take space as much as they need we can have inline elements siiting next to each other but we cant have block elements because block elements take entire width of page </p>
+ 	<br/>
+ 	<h1>Popular Containers in Html they are divs and spans</h1>
+ 	<a href="#">link1</a>
+ 	<a href="#">link2</a> (these are inline or the same line as css elements)
+ 	<hr/>
+ 	<p> Paragraph 1</p>
+    <p> Paragraph 2</p>(these are block elements even though space is avalaible they will print in the next line)
+    <p>Spans are inline containers and divs are block containers</p>
+    <span>span 1</span>
+    <span>span 2</span>
+    <hr/>
+    <div class="silver-background">div1</div>
+    <div>div2</div>
+    <h1>Input tags in html</h1>
+    <input type="text" name= "First name" value="Enter your user name" ><!-- value means it already places the value given in the value box i.e., prefilled -->
+    <input type="date" >
+     <input type="email" placeholder="Enter your email">
+     <input type="range" value="Enter your user name" >
+     <input type="file" value="Enter your user name" >
+     <input type="button" value="Enter your user name" >
+     <input type="checkbox" value="Enter your user name" >
+     <input type="submit" name="" value="Click me to submit">
+     <input name="button" type="radio">
+       <input name="button" type="radio">
+     <form>
+     <input type="submit">
+     </form>
+    <input type="password">
+    <textarea>
+    	Enter a Paragraph
+    </textarea>
+    
+    <h1>Using iframes in html</h1>
+    <p>An iframe is an html element that is actually able to display another website inside of your webpage so we can have another website in our own website</p>
+    <iframe src="https://giraffeacademy.com/" frameborder="0" width="1000" height="1000">Sorry u cant view the webpage </iframe>
+    <h1>Meta tags in html</h1>
+    <p> Meta tags are used for meta data meta tags are used define about the particuar web pagde</p>
+    <h1>CSS-CASCADING STYLE SHEETS</h1>
+    <p> <big><b>style</b></big> is used to change the color of text and background color of text and the text can be <big><b>paragraphs</b></big> and <big><b>h1 to h6</b></big> </p>
+    <p class="red-text">here class is used in our paragraph so the text is going to change into the class colour which is blue as mentioned in above style and also in this paragraph</p>
+    <p>Border radius cab be in pixels or in percentage</p>
+    <p> Id are represented in style block by starting with # where as classes are gonna start with .(dot)</p>
+    <p> If there are two classes present as below the order would be as the which we will be written in style block i.e., if there are 2 colours than the 2nd colour overrides the first and the 2nd woukd be displayed and classes color can override body color </p>
+    <p> Id's are more specific than classes so id can override classes color</p>
+    <p> Inlines(style="color: yellow" which is present in below h3) are more specific than ids and classes ahich can overrideo both of them</p>
+    <p> that most important thing in css is which overrides all the colors i.e., maybe it was body/class/id/inline if there is <h2>!important</h2> in our class then that should be our final colour in the resulting paragraphs</p>
+    <h3 class="blue-text pink-text" id="orange-text" style="color: yellow" > The order of pink-text and blue-text doesnt matter what does matter is how they are written in the style block here we have give !important for class=pink-text so the color will be pink</h3>
+    <p> Use hex code for specific colors hex code are six hexa decimal digits that represent colors we can represent any color on the spectrum using hexcode </p>
+    <p> Hexcodes for different colors are red=#FF0000 black=#000000 green=#00FF00 orange=#FFA500 dodger blue=#1E90FF etc</p>
+    <img src="Hexcode.jpeg"><h1>This is an example of applying hexcode to the code to get colors</h1> </img>
+
+
+
+
+
+
+
+
+
+
+
+<!--Place holder is same as value but the only difference is when we start typing in the box like email the faint words will disappear where as in value we have to manually delete all the stuff -->
+     <p> <h2>FORMS</h2></p>
+     <form>
+     	<p>Enter email:</p>
+     	<input type="email" name="useremail" placeholder="Enter the email">
+     	<input type="submit" name="" value="Submit">
+
+     </form>
+         <form action="https://www.facebook.com" method="get">
+     	<p>Enter Text and take me to facebook:</p>
+     	<input type="text" name="userinput" value="Enter the text">
+     	<input type="submit" name="" value="Submit">
+     </form>
+
+  <br>
+
+  <form>
+  	<input type="text" name="" placeholder="not required">
+  	<input type="text" name="" placeholder="required" required>
+  	<input type="submit" name="" value="submit">
+  </form>
+<br>
+
+<form>
+	<label><!-- Labelling a form or input-->
+		Enter Text:
+		<input type="text" name="" value="Block one">
+	</label>
+</form>
+<br>
+
+
+<form><!--Labelling a form using for -->
+<label for="user input"> Enter input:</label>
+<input id="userinput" type="text" name="" placeholder="Hello">
+</form>
+<br>
+
+
+<h2>Hotel Feedback Form</h2>
+<form method="get">
+	<h3>Are you from India or a foreign country</h3>
+	<label for="inInd">Inside India:</label>
+	<input id="inInd" type="radio" name="loc" value="Inside">
+
+	<label for="outInd">Outside India:</label>
+	<input id="outInd" type="radio" name="loc" value="Outside"> <!-- We can link radio buttons by giving the same names for all of the inputs here there are 2 by doing this we can select only 1 option out of many -->
+	<h2> How was your service?</h2>
+
+	<select name="stars">
+		<option Value="Excellent">5</option>
+		<option value="Good">4</option>
+		<option value="Okay">3</option>
+		<option value="Below average">2</option>
+		<option value="Bad">1</option>
+	</select>
+	<input type="submit" name="" value="SUBMIT">
+</form>
+
+<h2>Any other feedback?</h2>
+<textarea name="mytext" rows="8" cols="80"></textarea>
+<input type="submit" name="" value="submit">
+ 	</main>
+ 	<footer>
+ 	<h6>Revanth's Website</h6>
+    </footer>
+ </body>
+</html>
